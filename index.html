@@ -1,0 +1,122 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+	<!--using FontAwesome-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+    <div class="homeSection">
+	<section>
+	<!--navigation------------------------->
+	<nav>
+	<ul>
+	<li><a href="index.html" class="active">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="portfolio.html">Portfolio</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+   
+	<!--text----------------------->
+		<div class="text-container">
+			<p>Hello,</p>
+		    <p>I'M SHAHED</p>
+			<p>Freelancing with Designer <br>& Developer</p>
+			<button class="hire-btn">Hire me</button>
+			<button class="down-cv">Download CV</button>
+		</div>
+	<!--model---------------------->
+	<img alt="model" class="model" src="images/modelimg.jpg">
+	</section>
+    </div>
+            <div class="about-container">
+	<!--about-me-text-->
+		<div class="about-text">
+		<p>About Me</p>
+		<p>Developer & Designer</p>
+		<p>Hello,My name is Shahed Khan. I am a Developer and also a Designer.If you have any Project or if you want make a software for your business conatact with me.I'll make it as soon as possibale.You'll really like my work,if you don't I'll change this until you like. I'll give you setisfaction result.</p>
+		<button onclick="document.location='about.html'">Read more</button>
+		</div>
+	</div> 
+ <!--services-container---------------------------->
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Some of My Projects</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1"> 
+			<span>1</span>
+            <img class="projectImg" src="images/project1.png">    
+			<p class="heading">NS Skate</p>
+			<p class="details">This is a Sports Kit shopping website created by Bootstrap.</p>
+			<button>Read More</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">        
+			<span>2</span>
+            <img class="projectImg" src="images/project2.png"> 
+			<p class="heading">Travel Web</p>
+			<p class="details">  This is a travel Agency Website created by HTMLS and CSS.</p>
+			<button>Read More</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+                
+			<span>3</span>
+              <img class="projectImg" src="images/project3.png"> 
+			<p class="heading">Calculator JS</p>
+			<p class="details">This is a Simple percentage Calculator Created b Javascript.</p>
+			<button>Read More</button>
+			</div>
+		</div>
+	</div>
+	<!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>If You Have Any Project In Your Mind ?</p>
+		<button onclick="document.location='contact.html'">Contact me</button>
+	</div>
+	<!--footer--------------->
+ <footer>
+	 <!--heading-->
+  <p>Quick Links</p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+	<!--JQUery-------------------->
+<script type="text/javascript" src="JQuery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	});
+    </script>
+    
+</body>
+</html>
+ 
